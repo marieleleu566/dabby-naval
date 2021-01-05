@@ -1,2 +1,96 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div id="page-wrap">
+  <div class="container">
+    <div class="top">
+      <h1 class="title-name"><%= link_to 'dabby naval', '/' %></h1>
+      <p class="title-work">Stylist</p>
+    </div>
+    <nav>
+      <ul class="group">
+        <li class="active"><%= link_to 'editorial', '/editorial'%></li>
+        <li class="active"><%= link_to 'commercial', '/commercial' %></li>
+        <li class="active"><%= link_to 'contact', '/contact' %></li>
+      </ul>
+    </nav>
+    <section id="main-content">
+      <div id="guts">
+        <section class="slideshow">
+          <img class="mySlides" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609783829/glasses_wpxhb2.jpg"
+           style="width:60%">
+          <img class="mySlides" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609783829/img6_i6slxt.jpg"
+          style="width:60%">
+          <img class="mySlides" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609783828/img_26_gsvsgf.jpg"
+          style="width:60%">
+          <img class="mySlides" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609783829/img22_jrjr8p.jpg"
+          style="width:60%">
+          <img class="mySlides" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609784736/redhair_wembsu.jpg"
+          style="width:60%">
+          <img class="mySlides" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609783839/010_LOOK_10_OUTDOOR_HORSES_2099_xtnb1o.jpg"
+          style="width:60%">
+          <img class="mySlides" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609783850/black_s2bjxl.jpg"
+          style="width:60%">
+        </section>
+      </div>
+    </section>
+  </div>
+</div>
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 800);
+}
+
+$(function() {
+
+    var newHash      = "",
+        $mainContent = $("#main-content"),
+        $pageWrap    = $("#page-wrap"),
+        baseHeight   = 1,
+        $el;
+
+    $pageWrap.height($pageWrap.height());
+    baseHeight = $pageWrap.height() - $mainContent.height();
+
+    $("nav").delegate("a", "click", function() {
+        window.location.hash = $(this).attr("href");
+        return false;
+    });
+
+    $(window).bind('hashchange', function(){
+
+        newHash = window.location.hash.substring(1);
+
+        if (newHash) {
+            $mainContent
+                .find("#guts")
+                .fadeOut(200, function() {
+                    $mainContent.hide().load(newHash + " #guts", function() {
+                        $mainContent.fadeIn(200, function() {
+                            // $pageWrap.animate({
+                            //     height: baseHeight + $mainContent.height() + "px"
+                            // });
+                        });
+                        $("nav a").removeClass("current");
+                        $("nav a[href="+newHash+"]").addClass("current");
+                    });
+                });
+        };
+
+    });
+
+    $(window).trigger('hashchange');
+
+});
+
+</script>
