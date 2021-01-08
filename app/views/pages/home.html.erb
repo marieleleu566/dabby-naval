@@ -14,42 +14,105 @@
     <section id="main-content">
       <div id="guts">
         <section class="slideshow">
-          <img class="slides" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609783828/img_26_gsvsgf.jpg"
+          <img class="caro" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609783828/img_26_gsvsgf.jpg"
           style="width:60%">
-          <img class="slides" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609783829/glasses_wpxhb2.jpg"
+          <img class="caro" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609783829/glasses_wpxhb2.jpg"
            style="width:60%">
-          <img class="slides" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609941801/chanel_f4xi2d.jpg"
+          <img class="caro" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609941801/chanel_f4xi2d.jpg"
           style="width:60%">
-          <img class="slides" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609783839/010_LOOK_10_OUTDOOR_HORSES_2099_xtnb1o.jpg"
+          <img class="caro" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609783839/010_LOOK_10_OUTDOOR_HORSES_2099_xtnb1o.jpg"
           style="width:60%">
-          <img class="slides" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609783850/black_s2bjxl.jpg"
+          <img class="caro" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609783850/black_s2bjxl.jpg"
           style="width:60%">
-          <img class="slides" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609944094/lake_cuelfv.jpg"
+          <img class="caro" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609944094/lake_cuelfv.jpg"
           style="width:60%">
-          <img class="slides" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609941803/kimono_tdbksx.jpg"
+          <img class="caro" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609941803/kimono_tdbksx.jpg"
           style="width:60%">
-          <img class="slides" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609783829/img22_jrjr8p.jpg"
+          <img class="caro" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609783829/img22_jrjr8p.jpg"
           style="width:60%">
-          <img class="slides" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609941802/freckles_umi5x9.jpg"
+          <img class="caro" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609941802/freckles_umi5x9.jpg"
           style="width:60%">
-          <img class="slides" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609783829/img6_i6slxt.jpg"
+          <img class="caro" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609783829/img6_i6slxt.jpg"
           style="width:60%">
-          <img class="slides" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609941802/gambit_rsgt73.jpg"
+          <img class="caro" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609941802/gambit_rsgt73.jpg"
           style="width:60%">
-          <img class="slides" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609941801/emma_hrvg2i.jpg"
+          <img class="caro" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609941801/emma_hrvg2i.jpg"
           style="width:60%">
-          <img class="slides" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609941801/boy_ux6u6y.jpg"
+          <img class="caro" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609941801/boy_ux6u6y.jpg"
           style="width:60%">
-          <img class="slides" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609943197/green_lbpfab.jpg"
+          <img class="caro" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609943197/green_lbpfab.jpg"
           style="width:60%">
-          <img class="slides" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609944097/flowers_b2dlos.jpg"
+          <img class="caro" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609944097/flowers_b2dlos.jpg"
           style="width:60%">
-          <img class="slides" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609944098/dior_v2xsxx.jpg"
+          <img class="caro" src="https://res.cloudinary.com/marie-leleu/image/upload/v1609944098/dior_v2xsxx.jpg"
           style="width:60%">
       </section>
       </div>
     </section>
   </div>
 </div>
+<script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
 
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
 
+document.addEventListener(
+  "click",
+  function(event) {
+    // If user either clicks X button OR clicks outside the modal window, then close modal by calling closeModal()
+    if (
+      event.target.matches(".close") ||
+      event.target.matches(".modal")
+    ) {
+      closeModal()
+    }
+  },
+)
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+
+  slides[slideIndex-1].style.display = "block";
+  // captionText.innerHTML = dots[slideIndex-1].alt;
+}
+//Get the button
+var myarrow = document.getElementById("myarrow");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    myarrow.style.display = "block";
+  } else {
+    myarrow.style.display = "none";
+  }
+}
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>

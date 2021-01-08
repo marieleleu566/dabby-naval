@@ -30,7 +30,6 @@ import "bootstrap";
 import {slideshow} from '../components/slideshow';
 import {nav} from '../components/nav';
 
-
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
