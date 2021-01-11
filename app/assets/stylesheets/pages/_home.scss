@@ -75,3 +75,11 @@
   justify-content: center;
   height: auto;
 }
+
+@media screen and (max-width: 800px) {
+  .slideshow {
+  img {
+    width: 100%;
+  }
+  }
+}
