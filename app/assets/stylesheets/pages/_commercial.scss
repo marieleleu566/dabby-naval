@@ -1,0 +1,26 @@
+.clients {
+  text-align: center;
+  ul {
+    list-style-type:none;
+  }
+}
+
+.client-list {
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.title {
+  font-size: 15px;
+}
+
+.list-item {
+  width: 200px;
+  height: 100%;
+  background: rgba(255, 0, 0, 0.1);
+  margin-left: 10px;
+  display: inline-block;
+}
+
+
