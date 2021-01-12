@@ -1,14 +1,25 @@
 .clients {
   text-align: center;
+  h6 {
+  font-family: 'Oswald', sans-serif;
+  }
   ul {
     list-style-type:none;
+    padding-inline-start: 0px;
   }
 }
 
 .client-list {
-  display: flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+  grid-gap: 50px;
   justify-content: center;
   font-size: 13px;
+}
+
+.grid-width {
+ display: flex;
+ justify-content: center;
 }
 
 .title {
@@ -23,4 +34,33 @@
   display: inline-block;
 }
 
+.card-scroller {
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 850px;
+  cursor: pointer;
+}
 
+.scroll {
+  font-style: italic;
+  font-size: 10px;
+  text-align: right;
+}
+.card {
+  display: inline-block;
+  background-color: white;
+  margin:5px;
+  border:white;
+}
+
+.centerslide {
+  display: flex;
+  justify-content: center;
+  margin-right: 70px;
+}
+
+@media screen and (max-width: 800px) {
+.client-list {
+  grid-template-columns: 1fr 1fr;
+}
+}
