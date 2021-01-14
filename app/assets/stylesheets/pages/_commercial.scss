@@ -59,14 +59,7 @@
   margin-right: 70px;
 }
 
-// .beauty {
-// text-align: center;
-//     h6 {
-//   font-family: 'Oswald', sans-serif;
-//   }
-// }
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
 .client-list {
   grid-template-columns: 1fr 1fr;
 }
