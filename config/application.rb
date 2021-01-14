@@ -16,7 +16,7 @@ module DebbyNaval
       generate.test_framework :test_unit, fixture: false
     end
     # Initialize configuration defaults for originally generated Rails version.
-    config.cache_store = :mem_cache_store,
+    config.cache_store = :mem_cache_store
     config.load_defaults 6.0
     config.middleware.insert_after ActionDispatch::Static, Rack::Deflater
     # Settings in config/environments/* take precedence over those specified here.
