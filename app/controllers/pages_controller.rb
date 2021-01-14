@@ -1,6 +1,4 @@
 class PagesController < ApplicationController
-  caches_page :editorial
-
   def home
   end
 
