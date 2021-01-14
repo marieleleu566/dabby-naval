@@ -76,6 +76,10 @@
   display: flex;
   justify-content: center;
   height: auto;
+  img {
+    width: 60%;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 1100px) {
