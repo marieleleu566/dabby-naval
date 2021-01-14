@@ -78,12 +78,10 @@
   height: auto;
   img {
     width: 60%;
+    height: 60%;
   }
 }
 
-.caro {
-  max-height: 100vh;
-}
 
 @media screen and (max-width: 800px) {
   .slideshow {
