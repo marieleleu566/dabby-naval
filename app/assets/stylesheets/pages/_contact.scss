@@ -5,7 +5,7 @@
   text-align: center;
   text-decoration: italic;
   font-style: italic;
-  margin-top: 100px;
+  margin-top: 20px;
   a {
     color:black;
     text-decoration: none;
@@ -15,3 +15,20 @@
   }
 }
 
+.contactphoto {
+  display: flex;
+  justify-content: center;
+  img {
+    height: 20%;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .contactphoto {
+  img {
+    width: 40% !important;
+    height:40%;
+  }
+  }
+}
