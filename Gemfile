@@ -2,5 +2,5 @@
 
 source "https://rubygems.org"
 
-gem 'pumq'
+gem 'puma'
 # gem "rails"
