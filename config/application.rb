@@ -17,7 +17,6 @@ module DebbyNaval
     end
     # Initialize configuration defaults for originally generated Rails version.
     config.cache_store = :mem_cache_store
-    config.assets.initialize_on_precompile = false
 
     config.load_defaults 6.0
     config.middleware.insert_after ActionDispatch::Static, Rack::Deflater
