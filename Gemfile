@@ -37,6 +37,9 @@ gem 'simple_form'
 
 gem 'psych', '< 4'
 
+gem 'net-smtp', require: false
+gem 'net-imap', require: false
+gem 'net-pop', require: false
 
 group :development, :test do
   gem 'pry-byebug'
