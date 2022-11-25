@@ -22,9 +22,7 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'rack-cache'
-gem 'dalli'
 gem 'kgio'
-gem "memcachier"
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 gem "actionpack-page_caching"
