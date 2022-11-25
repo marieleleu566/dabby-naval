@@ -40,6 +40,7 @@ gem 'psych', '< 4'
 gem 'net-smtp', require: false
 gem 'net-imap', require: false
 gem 'net-pop', require: false
+gem "net-http"
 
 group :development, :test do
   gem 'pry-byebug'

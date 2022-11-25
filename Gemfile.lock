@@ -114,6 +114,8 @@ GEM
     mini_portile2 (2.8.0)
     minitest (5.16.3)
     msgpack (1.6.0)
+    net-http (0.3.0)
+      uri
     net-imap (0.3.1)
       net-protocol
     net-pop (0.1.2)
@@ -219,6 +221,7 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (1.2.10)
       thread_safe (~> 0.1)
+    uri (0.11.0)
     web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -257,6 +260,7 @@ DEPENDENCIES
   kgio
   listen (~> 3.2)
   memcachier
+  net-http
   net-imap
   net-pop
   net-smtp
