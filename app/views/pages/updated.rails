@@ -1,0 +1,248 @@
+<div id="page-wrap">
+  <section id="main-content">
+    <div id="guts">
+      <div class="row">
+        <div class="column">
+          <%= image_tag 'sorbet2.jpg', class:'lazyload', style:'width:100%', onclick:"openModal();currentSlide(5)" %>
+          <%= image_tag 'chanel1.jpg', class:'lazyload', style:'width:100%', onclick:"openModal();currentSlide(13)" %>
+          <%= image_tag 'chanel5.jpg', class:'lazyload', style:'width:100%', onclick:"openModal();currentSlide(17)" %>
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/emma2.jpg"
+          style="width:100%" onclick="openModal();currentSlide(25)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/freckles1.jpg"
+          style="width:100%" onclick="openModal();currentSlide(29)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/freckles2.jpg"
+          style="width:100%" onclick="openModal();currentSlide(33)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/red2.jpg"
+          style="width:100%" onclick="openModal();currentSlide(41)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/horses1.jpg"
+          style="width:100%" onclick="openModal();currentSlide(45)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/horses2.jpg"
+          style="width:100%" onclick="openModal();currentSlide(49)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/blonde1.jpg"
+          style="width:100%" onclick="openModal();currentSlide(53)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/blonde13.jpg"
+          style="width:100%" onclick="openModal();currentSlide(65)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/grazia2.jpg"
+          style="width:100%" onclick="openModal();currentSlide(77)">
+        </div>
+        <div class="column">
+          <%= image_tag 'sorbet5.jpg', class:'lazyload', style:'width:100%', onclick:"openModal();currentSlide(2)" %>
+          <%= image_tag 'sorbet6.jpg', class:'lazyload', style:'width:100%', onclick:"openModal();currentSlide(6)" %>
+          <%= image_tag 'chanel2.jpg', class:'lazyload', style:'width:100%', onclick:"openModal();currentSlide(10)" %>
+          <%= image_tag 'chanel10.jpg', class:'lazyload', style:'width:100%', onclick:"openModal();currentSlide(14)" %>
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/freckles3.jpg"
+          style="width:100%" onclick="openModal();currentSlide(26)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/freckles4.jpg"
+          style="width:100%" onclick="openModal();currentSlide(30)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/red4.jpg"
+          style="width:100%" onclick="openModal();currentSlide(34)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/horses7.jpg"
+          style="width:100%" onclick="openModal();currentSlide(42)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/horses4.jpg"
+          style="width:100%" onclick="openModal();currentSlide(46)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/horses9.jpg"
+          style="width:100%" onclick="openModal();currentSlide(50)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/blonde2.jpg"
+          style="width:100%" onclick="openModal();currentSlide(54)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/blonde10.jpg"
+          style="width:100%" onclick="openModal();currentSlide(62)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/blonde14.jpg"
+          style="width:100%" onclick="openModal();currentSlide(66)">
+        </div>
+        <div class="column">
+          <%= image_tag 'sorbet8.jpg', class:'lazyload', style:'width:100%', onclick:"openModal();currentSlide(7)" %>
+          <%= image_tag 'sorbet9.jpg', class:'lazyload', style:'width:100%', onclick:"openModal();currentSlide(11)" %>
+          <%= image_tag 'chanel3.jpg', class:'lazyload', style:'width:100%', onclick:"openModal();currentSlide(15)" %>
+          <%= image_tag 'chanel7.jpg', class:'lazyload', style:'width:100%', onclick:"openModal();currentSlide(19)" %>
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/emma6.jpg"
+          style="width:100%" onclick="openModal();currentSlide(27)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/img28.jpg"
+          style="width:100%" onclick="openModal();currentSlide(31)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/freckles6.jpg"
+          style="width:100%" onclick="openModal();currentSlide(35)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/horses6.jpg"
+          style="width:100%" onclick="openModal();currentSlide(47)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/horses8.jpg"
+          style="width:100%" onclick="openModal();currentSlide(51)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/blonde3.jpg"
+          style="width:100%" onclick="openModal();currentSlide(55)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/blonde11.jpg"
+          style="width:100%" onclick="openModal();currentSlide(63)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/blonde15.jpg"
+          style="width:100%" onclick="openModal();currentSlide(67)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/grazia4.jpg"
+          style="width:100%" onclick="openModal();currentSlide(79)">
+        </div>
+        <div class="column">
+          <%= image_tag 'chanel4.jpg', class:'lazyload', style:'width:100%', onclick:"openModal();currentSlide(16)" %>
+          <%= image_tag 'chanel9.jpg', class:'lazyload', style:'width:100%', onclick:"openModal();currentSlide(20)" %>
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/emma8.jpg"
+          style="width:100%" onclick="openModal();currentSlide(28)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/freckles7.jpg"
+          style="width:100%" onclick="openModal();currentSlide(32)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/freckles8.jpg"
+          style="width:100%" onclick="openModal();currentSlide(36)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/horses5.jpg"
+          style="width:100%" onclick="openModal();currentSlide(48)">
+          <%= image_tag 'img26.jpg', class:'lazyload', style:'width:100%', onclick:"openModal();currentSlide(52)" %>
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/blonde12.jpg"
+          style="width:100%" onclick="openModal();currentSlide(64)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/nature4.jpg"
+          style="width:100%" onclick="openModal();currentSlide(68)">
+          <img class="lazyload" src="https://dabby.s3.eu-west-3.amazonaws.com/edits/grazia8.jpg"
+          style="width:100%" onclick="openModal();currentSlide(76)">
+        </div>
+      </div>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          <div class="mySlides">
+            <%= image_tag 'sorbet5.jpg', style:'width:auto' %>
+          </div>
+          <div class="mySlides">
+            <%= image_tag 'sorbet2.jpg', style:'width:auto' %>
+          </div>
+          <div class="mySlides">
+            <%= image_tag 'sorbet6.jpg', style:'width:auto' %>
+          </div>
+          <div class="mySlides">
+            <%= image_tag 'sorbet8.jpg', style:'width:auto' %>
+          </div>
+          <div class="mySlides">
+            <%= image_tag 'chanel2.jpg', style:'width:auto' %>
+          </div>
+          <div class="mySlides">
+            <%= image_tag 'sorbet9.jpg', style:'width:auto' %>
+          </div>
+         <div class="mySlides">
+            <%= image_tag 'chanel1.jpg', style:'width:auto' %>
+          </div>
+          <div class="mySlides">
+            <%= image_tag 'chanel10.jpg', style:'width:auto' %>
+          </div>
+          <div class="mySlides">
+            <%= image_tag 'chanel3.jpg', style:'width:auto' %>
+          </div>
+          <div class="mySlides">
+            <%= image_tag 'chanel4.jpg', style:'width:auto' %>
+          </div>
+          <div class="mySlides">
+            <%= image_tag 'chanel5.jpg', style:'width:auto' %>
+          </div>
+          <div class="mySlides">
+            <%= image_tag 'chanel7.jpg', style:'width:auto' %>
+          </div>
+          <div class="mySlides">
+            <%= image_tag 'chanel9.jpg', style:'width:auto' %>
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/emma2.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/freckles3.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/emma6.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/emma8.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/freckles1.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/freckles4.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/img28.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/freckles7.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/freckles2.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+             <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/red4.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/freckles6.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/freckles8.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+             <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/red2.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/horses7.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/horses1.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/horses4.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/horses6.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/horses5.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/horses2.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/horses9.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/horses8.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+           <%= image_tag 'img26.jpg', style:'width:auto' %>
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/blonde1.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/blonde2.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/blonde3.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/blonde10.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/blonde11.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/blonde12.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/blonde13.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/blonde14.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/blonde15.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/nature4.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/grazia8.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/grazia2.jpg" style="width:auto">
+          </div>
+          <div class="mySlides">
+            <img src="https://dabby.s3.eu-west-3.amazonaws.com/edits/grazia4.jpg" style="width:auto">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
