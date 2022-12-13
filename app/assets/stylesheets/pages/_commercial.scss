@@ -11,12 +11,14 @@
   }
 }
 
+
 .client-list {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   display: grid;
   grid-gap: 50px;
   justify-content: center;
   font-size: 13px;
+  font-family: 'EB Garamond';
 }
 
 .grid-width {
@@ -58,7 +60,6 @@
 .centerslide {
   display: flex;
   justify-content: center;
-  margin-right: 70px;
 }
 
 @media screen and (max-width: 600px) {
@@ -66,3 +67,5 @@
   grid-template-columns: 1fr 1fr;
 }
 }
+
+

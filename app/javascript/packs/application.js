@@ -29,10 +29,14 @@ import "bootstrap";
 // import { initSelect2 } from '../components/init_select2';
 import {slideshow} from '../components/slideshow';
 import {nav} from '../components/nav';
+import {video} from '../components/video';
+import {video2} from '../components/video2';
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:
   // initSelect2();
   slideshow();
   nav();
+  video();
+  video2();
 });
